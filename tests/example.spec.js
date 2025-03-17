@@ -49,20 +49,20 @@ test('Login and Logout Flow', async ({ page }) => {
   await expect(page.locator('[data-test="username"]')).toBeVisible();
 });
 
-// test('test', async ({ page }) => {
-//   await page.goto('https://demoqa.com/');
-//   await page.locator('svg').first().click();
-//   await page.getByRole('listitem').filter({ hasText: 'Text Box' }).click();
-//   await page.getByRole('textbox', { name: 'Full Name' }).click();
-//   await page.getByRole('textbox', { name: 'Full Name' }).fill('ahmad');
-//   await page.getByRole('textbox', { name: 'name@example.com' }).click();
-//   await page.getByRole('textbox', { name: 'name@example.com' }).fill('alam@gmail.com');
-//   await page.getByRole('textbox', { name: 'name@example.com' }).press('Tab');
-//   await page.getByRole('textbox', { name: 'Current Address' }).fill('house 4');
-//   await page.locator('#permanentAddress').click();
-//   await page.locator('#permanentAddress').fill('house 4');
-//   await page.getByRole('button', { name: 'Submit' }).click();
-// });
+test('test', async ({ page }) => {
+  await page.goto('https://demoqa.com/');
+  await page.locator('svg').first().click();
+  await page.getByRole('listitem').filter({ hasText: 'Text Box' }).click();
+  await page.getByRole('textbox', { name: 'Full Name' }).click();
+  await page.getByRole('textbox', { name: 'Full Name' }).fill('ahmad');
+  await page.getByRole('textbox', { name: 'name@example.com' }).click();
+  await page.getByRole('textbox', { name: 'name@example.com' }).fill('alam@gmail.com');
+  await page.getByRole('textbox', { name: 'name@example.com' }).press('Tab');
+  await page.getByRole('textbox', { name: 'Current Address' }).fill('house 4');
+  await page.locator('#permanentAddress').click();
+  await page.locator('#permanentAddress').fill('house 4');
+  await page.getByRole('button', { name: 'Submit' }).click();
+});
 
 
 
